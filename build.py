@@ -42,6 +42,10 @@ styles = """\
   .page {
     width: 210mm;
     height: 297mm;
+    box-sizing: border-box;
+    padding-top: 12mm;
+    padding-bottom: 17mm;
+    padding-left: 7mm;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -58,7 +62,7 @@ styles = """\
   .address {
     font-size: 0.9rem;
     margin: 0 5.5mm;
-    padding-top: 5.5mm;
+    padding-top: 6.5mm;
   }
   .address span {
     display: block;
