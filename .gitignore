@@ -1,5 +1,5 @@
 *.py[cod]
-/input.csv
+input.csv
 /out/
 /env/
 /.idea/
